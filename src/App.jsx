@@ -228,7 +228,7 @@ function App() {
           <h3>{t.aboutTitle}</h3>
           <div className="about-grid">
             <img
-              src="/floor-plan.svg"
+              src="https://www.google.com/search?sca_esv=c7b63db539d9a6f3&sxsrf=ANbL-n6QQ1agnYRjKzu_2qIw_-lx1BnIdg:1773595479498&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3jljrY5CkLlk8Dq3IvwBz-SJyfRX_inP-J3Cs9lQZu9JC8DiUG6qMRySOJxhrHTckD5e3DR1D25uXl8y9AWgz-FzKu1imEFZ1vPEiD5_3EWZsocTRrBO6rDC_31ujVuvYieRb3bouYsEoMeeSGqppgL_-Lq819NWmlkUvvA0lHCFEwGNWg&q=floor+plan&sa=X&ved=2ahUKEwibkJ-EtqKTAxUVTqQEHVpyIdAQtKgLegQIFhAB#sv=CAMSVhoyKhBlLWpnS0RuSVB5RENlRFNNMg5qZ0tEbklQeURDZURTTToOSHVaUkNkMlN1VXdxTU0gBCocCgZtb3NhaWMSEGUtamdLRG5JUHlEQ2VEU00YADABGAcgu7r34AYwAkoIEAIYAiACKAI"
               alt="Architectural floor plan drawing"
             />
             <div>
