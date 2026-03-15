@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HAMZA MOHAMED MAHAMOUD | Civil Engineer in Djibouti</title>
+    <meta
+      name="description"
+      content="Professional portfolio of HAMZA MOHAMED MAHAMOUD, Civil Engineer based in Djibouti specialized in structural design, site supervision, and infrastructure development."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">🏗️ HAMZA MOHAMED MAHAMOUD</div>
+      <nav id="navLinks"></nav>
+      <div class="controls">
+        <button id="langBtn">EN</button>
+        <button id="modeBtn">🌙</button>
+      </div>
+    </header>
+
+    <section class="hero" id="hero">
+      <div class="overlay">
+        <h1>HAMZA MOHAMED MAHAMOUD</h1>
+        <h2 id="titleText"></h2>
+        <p>📍 <span id="locationText"></span></p>
+        <p class="tagline" id="taglineText"></p>
+        <div class="hero-btns">
+          <a href="#projects" id="projectsBtn"></a>
+          <a href="./Hamza_Mohamed_CV.txt" download id="downloadBtn"></a>
+          <a href="#contact" id="contactBtn"></a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="about" class="card">
+        <h3 id="aboutTitle"></h3>
+        <div class="about-grid">
+          <img
+            src="https://images.unsplash.com/photo-1503387765-592deb58ef4e?auto=format&fit=crop&w=900&q=80"
+            alt="Architectural floor plan drawing"
+          />
+          <div>
+            <p id="aboutText"></p>
+            <div class="mini-facts">
+              <span>🎓 Master Degree in Civil Engineering</span>
+              <span>📐 82+ Villa Plans</span>
+              <span>🌆 Djibouti City Infrastructure Exposure</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="card">
+        <h3 id="skillsTitle"></h3>
+        <div class="skills-grid" id="skillsGrid"></div>
+      </section>
+
+      <section id="projects" class="card">
+        <h3 id="projectsTitle"></h3>
+        <div class="project-grid" id="projectGrid"></div>
+      </section>
+
+      <section id="experience" class="card">
+        <h3 id="expTitle"></h3>
+        <div class="timeline" id="timeline"></div>
+      </section>
+
+      <section id="education" class="card split">
+        <div>
+          <h3 id="eduTitle"></h3>
+          <ul id="educationList"></ul>
+        </div>
+        <div>
+          <h3 id="certTitle"></h3>
+          <div class="badge-wrap" id="certWrap"></div>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h3 id="contactTitle"></h3>
+        <div class="contact-grid">
+          <div>
+            <p>✉️ hamzamohamedmoud@gmail.com</p>
+            <p>📞 +253 77 23 07 24</p>
+            <p>📍 Balbala, Djibouti</p>
+            <p>🔗 linkedin.com/in/hamza-mohamed-civil</p>
+            <iframe title="Djibouti map" src="https://www.google.com/maps?q=Djibouti&output=embed" loading="lazy"></iframe>
+          </div>
+          <form>
+            <input type="text" id="nameField" required />
+            <input type="email" id="emailField" required />
+            <textarea rows="5" id="messageField" required></textarea>
+            <button type="submit" id="sendBtn"></button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footerText"></footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
