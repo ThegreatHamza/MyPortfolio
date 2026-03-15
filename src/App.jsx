@@ -228,7 +228,7 @@ function App() {
           <h3>{t.aboutTitle}</h3>
           <div className="about-grid">
             <img
-              src="https://images.unsplash.com/photo-1503387765-592deb58ef4e?auto=format&fit=crop&w=900&q=80"
+              src="/floor-plan.svg"
               alt="Architectural floor plan drawing"
             />
             <div>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800" role="img" aria-label="Architectural floor plan">
+  <rect width="1200" height="800" fill="#f5f1e7"/>
+  <g stroke="#1f2a32" stroke-width="8" fill="none">
+    <rect x="80" y="80" width="1040" height="640"/>
+    <line x1="500" y1="80" x2="500" y2="720"/>
+    <line x1="80" y1="360" x2="500" y2="360"/>
+    <line x1="500" y1="250" x2="1120" y2="250"/>
+    <line x1="780" y1="250" x2="780" y2="720"/>
+    <line x1="960" y1="250" x2="960" y2="720"/>
+  </g>
+  <g stroke="#2e6f8f" stroke-width="5" fill="none" opacity="0.85">
+    <path d="M220 80 v70 h70"/>
+    <path d="M500 460 h70 v70"/>
+    <path d="M780 520 h70 v70"/>
+    <path d="M960 620 h70 v70"/>
+    <path d="M1120 330 h-70 v70"/>
+  </g>
+  <g fill="#1f2a32" font-family="Arial, sans-serif" font-size="34" font-weight="700">
+    <text x="220" y="230">LIVING ROOM</text>
+    <text x="180" y="520">KITCHEN</text>
+    <text x="620" y="180">MASTER BEDROOM</text>
+    <text x="560" y="430">BEDROOM</text>
+    <text x="815" y="430">BATH</text>
+    <text x="990" y="430">STAIRS</text>
+    <text x="980" y="690">OFFICE</text>
+  </g>
+</svg>
